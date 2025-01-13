@@ -1,0 +1,134 @@
+{
+	"queryCost": 1,
+	"latitude": 43.81545,
+	"longitude": 11.0584,
+	"resolvedAddress": "Poggio a Caiano, Toscana, Italia",
+	"address": "poggioacaiano",
+	"timezone": "Europe/Rome",
+	"tzoffset": 1,
+	"description": "Similar temperatures continuing with no rain expected.",
+	"days": [
+		"array of days, more than 10000 lines, removed here for simplification"
+	],
+	"alerts": [
+		{
+			"event": "Yellow Wind Warning",
+			"headline": "Yellow Wind Warning for Italy - Toscana",
+			"ends": "2025-01-15T12:59:00",
+			"endsEpoch": 1736942340,
+			"onset": "2025-01-15T01:00:00",
+			"onsetEpoch": 1736899200,
+			"id": "2.49.0.0.380.3.IT.250113102311.119",
+			"language": "en",
+			"link": "https://meteoalarm.org/en/live/region/IT?s=toscana",
+			"description": "Moderate intensity weather phenomena expected\n (DISCLAIMER: \"Information provided on METEOALARM for Italy regard only the intensity and recurrence of the phenomena, further details can be found at www.meteoam.it. METEOALARM information do not provide the assessment of impact on the territory and they do not represent the Official Alerts messages that are issued by the National Civil Protection Service https://www.protezionecivile.gov.it\")"
+		},
+		{
+			"event": "Green Wind Warning",
+			"headline": "Green Wind Warning for Italy - Toscana",
+			"ends": "2025-01-13T23:59:00",
+			"endsEpoch": 1736809140,
+			"onset": "2025-01-11T12:24:00",
+			"onsetEpoch": 1736594640,
+			"id": "2.49.0.0.380.3.IT.250111122414.007",
+			"language": "en",
+			"link": "https://meteoalarm.org/en/live/region/IT?s=toscana",
+			"description": "No Special Awareness Required\n (DISCLAIMER: \"Information provided on METEOALARM for Italy regard only the intensity and recurrence of the phenomena, further details can be found at www.meteoam.it. METEOALARM information do not provide the assessment of impact on the territory and they do not represent the Official Alerts messages that are issued by the National Civil Protection Service https://www.protezionecivile.gov.it\")"
+		},
+		{
+			"event": "Orange Wind Warning",
+			"headline": "Orange Wind Warning for Italy - Toscana",
+			"ends": "2025-01-15T00:59:00",
+			"endsEpoch": 1736899140,
+			"onset": "2025-01-13T09:00:00",
+			"onsetEpoch": 1736755200,
+			"id": "2.49.0.0.380.3.IT.250113102311.099",
+			"language": "en",
+			"link": "https://meteoalarm.org/en/live/region/IT?s=toscana",
+			"description": "Severe weather expected\n (DISCLAIMER: \"Information provided on METEOALARM for Italy regard only the intensity and recurrence of the phenomena, further details can be found at www.meteoam.it. METEOALARM information do not provide the assessment of impact on the territory and they do not represent the Official Alerts messages that are issued by the National Civil Protection Service https://www.protezionecivile.gov.it\")"
+		}
+	],
+	"stations": {
+		"E1917": {
+			"distance": 17720,
+			"latitude": 43.961,
+			"longitude": 11.147,
+			"useCount": 0,
+			"id": "E1917",
+			"name": "EW1917 Sofignano Vaiano (PO) IT",
+			"quality": 0,
+			"contribution": 0
+		},
+		"LIVC": {
+			"distance": 51536,
+			"latitude": 44.2,
+			"longitude": 10.7,
+			"useCount": 0,
+			"id": "LIVC",
+			"name": "LIVC",
+			"quality": 45,
+			"contribution": 0
+		},
+		"F4832": {
+			"distance": 811,
+			"latitude": 43.82,
+			"longitude": 11.05,
+			"useCount": 0,
+			"id": "F4832",
+			"name": "FW4832 Poggio A Caiano IT",
+			"quality": 0,
+			"contribution": 0
+		},
+		"AT943": {
+			"distance": 17200,
+			"latitude": 43.967,
+			"longitude": 11.102,
+			"useCount": 0,
+			"id": "AT943",
+			"name": "IK5NLA Vaiano IT",
+			"quality": 0,
+			"contribution": 0
+		},
+		"LIRQ": {
+			"distance": 11505,
+			"latitude": 43.8,
+			"longitude": 11.2,
+			"useCount": 0,
+			"id": "LIRQ",
+			"name": "LIRQ",
+			"quality": 49,
+			"contribution": 0
+		}
+	},
+	"currentConditions": {
+		"datetime": "14:57:00",
+		"datetimeEpoch": 1736776620,
+		"temp": 7.2,
+		"feelslike": 4.8,
+		"humidity": 58.9,
+		"dew": -0.3,
+		"precip": 0,
+		"precipprob": 0,
+		"snow": 0,
+		"snowdepth": 0,
+		"preciptype": null,
+		"windgust": 29,
+		"windspeed": 13.1,
+		"winddir": 145,
+		"pressure": 1027,
+		"visibility": 10,
+		"cloudcover": 50,
+		"solarradiation": 273,
+		"solarenergy": 1,
+		"uvindex": 3,
+		"conditions": "Partially cloudy",
+		"icon": "partly-cloudy-day",
+		"stations": ["F4832", "AT943", "LIRQ"],
+		"source": "obs",
+		"sunrise": "07:47:43",
+		"sunriseEpoch": 1736750863,
+		"sunset": "17:01:47",
+		"sunsetEpoch": 1736784107,
+		"moonphase": 0.5
+	}
+}
